@@ -88,7 +88,7 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/fsl-tegra-udc/gadget/lun0/file
 
 # Kernel / Ramdisk
-TARGET_PREBUILT_KERNEL := device/htc/endeavoru/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/htc/endeavoru/kernel
 TARGET_PROVIDES_INIT_TARGET_RC := true
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
